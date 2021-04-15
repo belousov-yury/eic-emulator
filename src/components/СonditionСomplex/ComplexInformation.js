@@ -2,20 +2,23 @@ import React, {useState} from "react";
 import './ComplexInformation.css'
 
 function ComplexInformation() {
-  const data = useState('НД')
+  const [data] = useState('НД')
   return (
     <table className={'complex-information'}>
+      <thead>
       <tr>
         <th></th>
         <th colSpan={2}>ЗС СКУ</th>
         <th colSpan={2}>ЗС РПУ</th>
       </tr>
+      </thead>
+      <tbody>
       <tr>
         <td className={'complex-information__main-column'}>
           Сетевое подключение/статус:
         </td>
         <td>АРМ 1</td>
-        <td>АРМ2</td>
+        <td>АРМ 2</td>
         <td>АРМ 1</td>
         <td>АРМ 2</td>
       </tr>
@@ -100,7 +103,7 @@ function ComplexInformation() {
         <td>{data}</td>
         <td>{data}</td>
       </tr>
-
+      </tbody>
     </table>
   )
 }

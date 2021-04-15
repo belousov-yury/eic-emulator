@@ -1,5 +1,52 @@
 .complex-control {
     margin-top: 10px;
-    overflow-y: auto;
     width: 100%;
+    border-top: 1px solid var(--select-color);
+
+}
+
+.complex-control__content {
+}
+
+.react-tabs {
+    display: flex;
+    background: var(--select-color);
+}
+
+.react-tabs__tab-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 130px;
+    max-width: 130px;
+    background: var(--main-color);
+}
+
+.react-tabs__tab {
+    height: 50px;
+     list-style: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    user-select: none;
+}
+
+.react-tabs__tab--selected {
+    background: var(--select-color);
+    border-left: 4px  solid var(--good-color);
+}
+
+.react-tabs__tab-panel {
+    display: none;
+}
+
+.react-tabs__tab-panel--selected {
+    display: block;
+    width: 100%;
+}
+
+.panel-content {
+    text-align: center;
 }

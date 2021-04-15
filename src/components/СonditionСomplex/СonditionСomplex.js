@@ -9,8 +9,8 @@ function ConditionComplex() {
       <legend>
         Общая информаци о состоянии комплекса
       </legend>
-      <ComplexInformation/>
-      <ComplexControl/>
+      <ComplexInformation />
+      <ComplexControl />
     </fieldset>
   )
 }
