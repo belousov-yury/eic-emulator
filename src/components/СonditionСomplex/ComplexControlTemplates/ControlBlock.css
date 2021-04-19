@@ -1,0 +1,14 @@
+.control-block {
+    border: 1px var(--text-color) solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.control-block:first-child {
+    margin-top: 0;
+}
+
+.control-block__legend {
+    margin-left: 7px;
+    padding: 0 5px;
+}

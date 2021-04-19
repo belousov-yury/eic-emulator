@@ -1,0 +1,11 @@
+.control-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.control-center__item {
+    margin: 0 20px 5px 0;
+}
+.control-center__item input {
+    margin: 0 5px;
+}

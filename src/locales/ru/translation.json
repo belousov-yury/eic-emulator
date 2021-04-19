@@ -1,0 +1,31 @@
+{
+  "complexInformation": {
+    "LNAState": "Состояние МШУ/Рез. МШУ",
+    "amplifierState": "Состояние УМ/Рез. УМ",
+    "upConvertorState": "Состояние Конверторов Вверх/Рез.",
+    "downConvertorState": "Состояние Конверторов Вниз/Рез.",
+    "cortexState": "Состояние Cortex",
+    "controllerState": "Состояние Контроллера",
+    "testTranslatorState": "Состояние Тест-Транслятора",
+    "equipmentState": "Состояние Доп. оборудования ЗС",
+    "IFRState": "С/ш IFR Cortex/Сигнал АС",
+    "earthStationReady": "Готовность ЗС",
+    "antSystemReady": "Готовность АС",
+    "matrixPRM": "Состояние Матрицы ПРМ тракта",
+    "matrixPRD": "Состояние Матрицы ПРД тракта"
+  },
+  "interface": {
+    "earthStation": "Земная станция",
+    "targetDesignation": "Целеуказания",
+    "planTRI": "План ТРИ",
+    "TRICommands": "Команды ТРИ",
+    "measurementResults": "Результаты измерений",
+    "cortexRange": "Cortex дальность",
+    "cortexMonitoring": "Cortex мониторинг",
+    "cortexTelecommands": "Cortex телекоманды",
+    "cortexTelemetry": "Cortex телеметрия",
+    "cortexResetPorts": "Cortex сброс портов",
+    "settings": "Настройки"
+
+  }
+}

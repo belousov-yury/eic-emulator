@@ -5,6 +5,7 @@ import ManagementPlan from "./ManagementPlan/ManagementPlan";
 import ExchangeProtocol from "./ExchangeProtocol/ExchangeProtocol";
 
 function App() {
+
   return (
     <div className={'app'}>
       <ConditionComplex/>

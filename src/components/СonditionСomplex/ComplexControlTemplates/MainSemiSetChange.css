@@ -1,0 +1,17 @@
+.main-semi-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-semi-set__item {
+    margin: 5px;
+}
+
+.main-semi-set__item input{
+    margin: 5px;
+}
+
+.main-semi-set__button-text {
+    padding: 5px;
+}

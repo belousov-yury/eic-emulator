@@ -1,0 +1,32 @@
+.life-mark {
+    display: flex;
+    flex-direction: column;
+}
+
+.life-mark__item {
+    margin: 5px;
+}
+.life-mark__item input {
+    margin-right: 5px;
+
+}
+
+.life-mark__period-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.life-mark__period-container div {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
+}
+.life-mark__period-container input {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+}
+.life-mark__period-container button {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+}
