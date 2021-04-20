@@ -6,7 +6,7 @@ import ComplexControl from "./ComplexControl";
 function ConditionComplex() {
   return (
     <fieldset className={'condition-complex'}>
-      <legend>
+      <legend className='condition-complex__legend'>
         Общая информаци о состоянии комплекса
       </legend>
       <ComplexInformation />

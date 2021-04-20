@@ -1,9 +1,9 @@
 import React from "react"
 
-import './EarthStation.css'
-import ControlBlock from "./ControlBlock";
+import './ControlCenter.css'
+import ControlBlock from "../ControlBlock";
 
-function EarthStation() {
+function ControlCenter() {
 
   return (
     <ControlBlock title='Центр управления'>
@@ -15,4 +15,4 @@ function EarthStation() {
   )
 }
 
-export default EarthStation
+export default ControlCenter

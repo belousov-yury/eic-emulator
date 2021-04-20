@@ -1,5 +1,5 @@
 import React from "react"
-import ControlBlock from "./ControlBlock";
+import ControlBlock from "../ControlBlock";
 import './MainSemiSetChange.css'
 
 function MainSemiSetChange() {

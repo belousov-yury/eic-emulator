@@ -13,7 +13,7 @@
 
 .life-mark__period-container {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
 }
 .life-mark__period-container div {
     grid-row: 1;
@@ -23,10 +23,15 @@
 .life-mark__period-container input {
     grid-row: 1;
     grid-column: 2;
-    justify-self: end;
+    justify-self: start;
+    width: 50%;
+    height: 22px;
+    font-size: 16px;
 }
 .life-mark__period-container button {
     grid-row: 1;
     grid-column: 2;
     justify-self: end;
+    width: 45%;
+    height: 22px;
 }

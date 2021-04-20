@@ -1,6 +1,6 @@
 import React from "react"
 import './LifeMark.css'
-import ControlBlock from "./ControlBlock";
+import ControlBlock from "../ControlBlock";
 
 function LifeMark() {
   return(

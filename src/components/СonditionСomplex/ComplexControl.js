@@ -2,9 +2,8 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import './ComplexControl.css'
 import {useTranslation} from "react-i18next"
-import EarthStation from "./ComplexControlTemplates/EarthStation";
-import MainSemiSetChange from "./ComplexControlTemplates/MainSemiSetChange";
-import LifeMark from "./ComplexControlTemplates/LifeMark";
+import EarthStation from "./ComplexControlTemplates/EarthStation/EarthStation";
+import TargetDesignation from "./ComplexControlTemplates/TargetDesignation/TargetDesignation";
 
 // import {useSelector} from "react-redux";
 
@@ -32,11 +31,9 @@ function ComplexControl() {
 
         <TabPanel>
           <EarthStation />
-          <MainSemiSetChange />
-          <LifeMark />
         </TabPanel>
         <TabPanel>
-          <h2>sad</h2>
+          <TargetDesignation />
         </TabPanel>
         <TabPanel>
           <h2>Any content 3</h2>

@@ -1,6 +1,5 @@
 .complex-control {
     margin-top: 10px;
-    width: 100%;
     border-top: 1px solid var(--select-color);
 
 }
@@ -23,7 +22,7 @@
 
 .react-tabs__tab {
     height: 50px;
-     list-style: none;
+    list-style: none;
     cursor: pointer;
     transition: all 0.1s;
     display: flex;
@@ -46,7 +45,19 @@
     display: block;
     width: 100%;
     overflow-y: auto;
-    height: 700px;
+    height: 650px;
+}
+.react-tabs__tab-panel--selected::-webkit-scrollbar {
+    width: 5px;
+}
+.react-tabs__tab-panel--selected::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: var(--main-color);
+}
+
+.react-tabs__tab-panel--selected::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+    border-radius: 3px;
 }
 
 .panel-content {

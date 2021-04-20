@@ -1,5 +1,5 @@
 .control-block {
-    border: 1px var(--text-color) solid;
+    border: 1px var(--scroll-color) solid;
     margin: 5px;
     padding: 5px;
 }
