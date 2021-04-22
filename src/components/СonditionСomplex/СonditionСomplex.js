@@ -1,7 +1,7 @@
 import React from "react";
 import './СonditionСomplex.css'
 import ComplexInformation from "./ComplexInformation";
-import ComplexControl from "./ComplexControl";
+import ComplexControl from "./ComplexControl/ComplexControl";
 
 function ConditionComplex() {
   return (

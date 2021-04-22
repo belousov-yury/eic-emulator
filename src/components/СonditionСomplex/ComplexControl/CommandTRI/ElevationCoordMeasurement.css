@@ -1,0 +1,25 @@
+.elev-coord-meas {
+
+}
+
+.elev-coord-meas__item {
+    margin: 10px 5px;
+}
+
+.elev-coord-meas__input-container {
+    display: flex;
+    justify-content: space-between;
+}
+.elev-coord-meas__input-container input {
+    width: 220px;
+}
+
+.elev-coord-meas__request-button button{
+    width: 100%;
+}
+.elev-coord-meas__table {
+    height: 200px;
+}
+.elev-coord-meas__table th {
+
+}

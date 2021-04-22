@@ -1,0 +1,33 @@
+.ranging {
+
+}
+
+.ranging__item {
+    margin: 10px 5px;
+}
+
+.ranging-button-container {
+}
+.ranging-button-container button {
+    width: 100%;
+}
+
+.automatic-container {
+    display: flex;
+    justify-content: space-between;
+}
+.automatic-container label input {
+    margin-right: 5px;
+}
+.automatic-container input[type=number] {
+    width: 220px;
+}
+
+.time-command-container {
+    display: flex;
+    justify-content: space-between;
+}
+.time-claim-check-container {
+    display: flex;
+    justify-content: space-between;
+}

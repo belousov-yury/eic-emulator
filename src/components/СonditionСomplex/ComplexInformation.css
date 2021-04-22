@@ -1,7 +1,9 @@
 .complex-information {
     text-align: center;
     line-height: 1.2;
-    margin: 7px;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 5px;
 }
 .complex-information tr {
 }

@@ -1,0 +1,37 @@
+.custom-table-container {
+    overflow-y: auto;
+    border: 1px solid var(--button-color);
+}
+
+.custom-table {
+    height: 100px;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85em;
+}
+
+
+.custom-table th {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    background-color: var(--select-color);
+    box-shadow: 0 1px 0 0 var(--button-color);
+    padding: 3px;
+    border-right: 1px var(--button-color) solid;
+    font-size: 1em;
+}
+
+.custom-table th:last-child {
+    border-right: none;
+}
+
+.custom-table td {
+    padding: 5px;
+    text-align: center;
+    border-right: 1px var(--button-color) solid;
+}
+
+.custom-table td:last-child {
+    border-right: none;
+}

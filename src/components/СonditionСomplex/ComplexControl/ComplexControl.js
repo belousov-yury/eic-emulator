@@ -2,8 +2,12 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import './ComplexControl.css'
 import {useTranslation} from "react-i18next"
-import EarthStation from "./ComplexControlTemplates/EarthStation/EarthStation";
-import TargetDesignation from "./ComplexControlTemplates/TargetDesignation/TargetDesignation";
+import EarthStation from "./EarthStation/EarthStation";
+import TargetDesignation from "./TargetDesignation/TargetDesignation";
+import PlanTRI from "./PlanTRI/PlanTRI";
+import CommandTRI from "./CommandTRI/CommandTRI";
+import CortexRange from "./CortexRange/CortexRange";
+import CortexMonitoring from "./CortexMonitoring/CortexMonitoring";
 
 // import {useSelector} from "react-redux";
 
@@ -14,7 +18,7 @@ function ComplexControl() {
   // const testVal = useSelector(state => state.complexInformation.SKU.antSystemReady)
   return(
     <div className={'complex-control'}>
-      <Tabs className={'complex-control__content react-tabs'}>
+      <Tabs className={'react-tabs'}>
         <TabList>
           <Tab>{t('interface.earthStation')}</Tab>
           <Tab>{t('interface.targetDesignation')}</Tab>
@@ -36,19 +40,18 @@ function ComplexControl() {
           <TargetDesignation />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 3</h2>
+          <PlanTRI/>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 4</h2>
+          <CommandTRI />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 5 Any content 5 Any content 5 Any content 5 Any content 5 Any content 5 Any content 5</h2>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 6</h2>
+          <CortexRange />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <CortexMonitoring />
         </TabPanel>
         <TabPanel>
           <h2>Any content 3</h2>

@@ -1,0 +1,53 @@
+.current-tri {
+
+}
+
+.current-tri__item {
+    margin: 10px 5px;
+}
+
+.time-session {
+}
+
+.time-session__time-container {
+    display: flex;
+    justify-content: space-between;
+}
+.current-tri__table-container {
+}
+.current-tri__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85em;
+    margin-top: 10px;
+    border: 1px var(--button-color) solid;
+}
+
+.current-tri__table th {
+    font-size: 1em;
+    padding: 3px;
+    border-right: 1px var(--button-color) solid;
+    border-bottom: 1px var(--button-color) solid;
+}
+.current-tri__table th:last-child {
+    border-right: none;
+}
+
+.current-tri__table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px var(--button-color) solid;
+}
+
+.execution-journal {
+    height: 150px;
+    border: 1px var(--button-color) solid;
+}
+
+.current-tri__button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.current-tri__button-container button {
+    width: 33%;
+}

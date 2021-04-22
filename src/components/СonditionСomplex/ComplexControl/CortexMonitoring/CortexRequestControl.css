@@ -1,0 +1,35 @@
+.ctx-request-control {
+
+}
+
+.ctx-request-control__item {
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctx-request-control__item input{
+    margin-right: 5px;
+}
+
+.ctx-request-control__checkbox-container {
+    font-size: 0.9em;
+}
+.ctx-request-control__checkbox-container label {
+    display: flex;
+    align-items: center;
+}
+
+.ctx-request-control__item--people-count {
+    display: flex;
+}
+.ctx-request-control__item--people-count div:first-child {
+    margin-right: 5px;
+}
+
+.ctx-request-control__item--people-count-input {
+    width: 300px;
+    padding: 0;
+
+}

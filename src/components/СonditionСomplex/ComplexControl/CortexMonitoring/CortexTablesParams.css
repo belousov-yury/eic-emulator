@@ -1,0 +1,20 @@
+.ctx-tables-params {
+
+}
+
+.ctx-tables-params__item {
+    margin: 10px 5px;
+}
+
+.change-table {
+    display: flex;
+    align-items: center;
+}
+.change-table select {
+    margin-left: 10px;
+    width: 150px;
+}
+
+.ctx-tables-params__table {
+    height: 200px;
+}

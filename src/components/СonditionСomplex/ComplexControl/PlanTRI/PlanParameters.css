@@ -1,0 +1,40 @@
+.plan-param {
+
+}
+
+.plan-param__item {
+    margin: 10px 5px;
+}
+
+.plan-param__item--input-container {
+    display: flex;
+    justify-content: space-between;
+}
+.plan-param__item--input-container label input {
+    margin-right: 5px;
+}
+
+
+.plan-param__item--period-container {
+    display: flex;
+    justify-content: center;
+}
+.plan-param__item--period-title {
+    margin-right: 5px;
+}
+.plan-param__item--period {
+    margin-right: 0;
+}
+
+.plan-param__item--button-container {
+    display: flex;
+    justify-content: stretch;
+}
+
+.plan-param__item--button-container button:first-child {
+    width: 70%;
+    margin-right: 5px;
+}
+.plan-param__item--button-container button:last-child {
+    width: 30%;
+}

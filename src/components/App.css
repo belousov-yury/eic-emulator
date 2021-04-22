@@ -5,10 +5,9 @@ html {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: stretch;
-    grid-template-columns: 35% 10% 55%;
-    font-size: 18px;
-    font-family: "Times New Roman", sans-serif;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
     color: var(--text-color);
 }
 
@@ -17,12 +16,65 @@ button {
     border-radius: 3px;
     background-color: var(--button-color);
     color: var(--text-color);
-    font-size: 1rem;
+    padding: 2.5px;
+    transition: all 70ms;
+    font-size: 0.9em;
 }
 button:hover {
     box-shadow: 0 0 2px 1px rgb(100, 100, 100);
 }
 button:active {
-    box-shadow: 0 0 2px 2px var(--button-active-color), inset 0 0 15px 1px var(--select-color);
+    box-shadow: inset 0 0 15px 1px var(--select-color);
     transform: translateY(1px);
+}
+
+input {
+    background-color: var(--main-color);
+    box-shadow: inset 0 0 3px 1px var(--select-color);
+    color: var(--text-color);
+    padding: 3px 0 3px 5px;
+    font-size: 1em;
+}
+
+select {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: 1px solid var(--select-color);
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 0.85em;
+}
+
+option {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: 1px solid var(--select-color);
+    border-radius: 3px;
+    padding: 3px;
+}
+option:hover {
+    box-shadow: 0 0 10px 100px orange inset;
+}
+
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: var(--main-color);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 650px){
+    .app {
+        font-size: 14px;
+    }
+    button {
+        font-size: 0.7em;
+    }
 }

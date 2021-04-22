@@ -1,0 +1,13 @@
+.work-mode {
+
+}
+
+.work-mode__item {
+    margin: 10px 5px;
+}
+
+.work-mode-button-container {
+}
+.work-mode-button-container button {
+    width: 100%;
+}

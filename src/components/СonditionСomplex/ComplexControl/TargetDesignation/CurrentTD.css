@@ -1,0 +1,26 @@
+.current-td {
+
+}
+.current-td__item {
+    margin: 10px 5px;
+}
+
+.current-td__table-container {
+    height: 150px;
+}
+
+.control-cur-td__time-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-cur-td__button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.control-cur-td__button-container button {
+    width: 25%;
+    height: 30px;
+    margin: 0 5px;
+}

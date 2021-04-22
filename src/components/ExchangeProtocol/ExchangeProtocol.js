@@ -1,8 +1,9 @@
 import React from "react";
+import './ExchangeProtocol.css'
 
 function ExchangeProtocol() {
   return(
-    <div>Протокол обмена</div>
+    <div className='exchange-protocol'>Протокол обмена</div>
   )
 }
 

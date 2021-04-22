@@ -1,43 +1,41 @@
-.signal-characteristic {
+.status-inquiry {
     display: flex;
     flex-direction: column;
 }
 
-.signal-characteristic__item {
+.status-inquiry__item {
     margin: 5px;
 }
-.signal-characteristic__item input {
+.status-inquiry__item input {
     margin-right: 5px;
 
 }
 
-.signal-characteristic__period-container {
+.status-inquiry__period-container {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.signal-characteristic__time-container {
+.status-inquiry__time-container {
     display: flex;
     justify-content: space-between;
 }
 
-.signal-characteristic__period-container div {
+.status-inquiry__period-container div {
     grid-row: 1;
     grid-column: 1;
     justify-self: start;
 }
-.signal-characteristic__period-container input {
+.status-inquiry__period-container input {
     grid-row: 1;
     grid-column: 2;
     justify-self: start;
     width: 50%;
     height: 22px;
-    font-size: 16px;
 }
-.signal-characteristic__period-container button {
+.status-inquiry__period-container button {
     grid-row: 1;
     grid-column: 2;
     justify-self: end;
     width: 45%;
-    height: 22px;
 }

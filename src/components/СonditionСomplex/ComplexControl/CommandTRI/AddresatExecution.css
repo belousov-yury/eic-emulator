@@ -1,0 +1,10 @@
+.addr-execut {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 5px 10px 5px;
+}
+
+.addr-execut select {
+    margin-left: 5px;
+    width: 220px;
+}

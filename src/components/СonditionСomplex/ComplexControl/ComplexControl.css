@@ -1,23 +1,20 @@
 .complex-control {
-    margin-top: 10px;
-    border-top: 1px solid var(--select-color);
-
+    display: block;
 }
-
-.complex-control__content {
-}
-
 .react-tabs {
     display: flex;
     background: var(--select-color);
+    border: 1px solid var(--select-color);
+
 }
 
 .react-tabs__tab-list {
     display: flex;
     flex-direction: column;
-    min-width: 130px;
-    max-width: 130px;
+    width: 30%;
     background: var(--main-color);
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .react-tabs__tab {
@@ -38,26 +35,14 @@
 }
 
 .react-tabs__tab-panel {
+    height: 615px;
     display: none;
 }
 
 .react-tabs__tab-panel--selected {
-    display: block;
+    display: grid;
     width: 100%;
     overflow-y: auto;
-    height: 650px;
-}
-.react-tabs__tab-panel--selected::-webkit-scrollbar {
-    width: 5px;
-}
-.react-tabs__tab-panel--selected::-webkit-scrollbar-track {
-    border-radius: 3px;
-    background-color: var(--main-color);
-}
-
-.react-tabs__tab-panel--selected::-webkit-scrollbar-thumb {
-    background-color: var(--scroll-color);
-    border-radius: 3px;
 }
 
 .panel-content {

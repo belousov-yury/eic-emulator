@@ -1,10 +1,11 @@
 .condition-complex {
+    width: 700px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid var(--select-color);
-    align-self: start;
-    margin: 7px;
-    width: 700px;
 }
 
 .condition-complex__legend {

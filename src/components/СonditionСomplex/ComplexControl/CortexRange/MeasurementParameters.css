@@ -1,0 +1,22 @@
+.meas-params {
+
+}
+
+.meas-params__item {
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meas-params__item select {
+    width: 220px;
+}
+
+.meas-params__item input[type=checkbox] {
+    margin-right: 5px;
+}
+
+.meas-params__item button {
+    width: 100%;
+}

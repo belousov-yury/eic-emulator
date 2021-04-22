@@ -1,43 +1,35 @@
-.status-inquiry {
+.life-mark {
     display: flex;
     flex-direction: column;
 }
 
-.status-inquiry__item {
+.life-mark__item {
     margin: 5px;
 }
-.status-inquiry__item input {
+.life-mark__item input {
     margin-right: 5px;
 
 }
 
-.status-inquiry__period-container {
+.life-mark__period-container {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
-.status-inquiry__time-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.status-inquiry__period-container div {
+.life-mark__period-container div {
     grid-row: 1;
     grid-column: 1;
     justify-self: start;
 }
-.status-inquiry__period-container input {
+.life-mark__period-container input {
     grid-row: 1;
     grid-column: 2;
     justify-self: start;
     width: 50%;
     height: 22px;
-    font-size: 16px;
 }
-.status-inquiry__period-container button {
+.life-mark__period-container button {
     grid-row: 1;
     grid-column: 2;
     justify-self: end;
     width: 45%;
-    height: 22px;
 }

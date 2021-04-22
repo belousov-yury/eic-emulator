@@ -21,10 +21,8 @@
 .operator-message__text-container input {
     height: 20px;
     width: 70%;
-    font-size: 16px;
 }
 
 .operator-message__text-container button {
-    height: 20px;
     width: 25%;
 }
