@@ -1,0 +1,9 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings__button{
+    width: 90%;
+    align-self: center;
+}

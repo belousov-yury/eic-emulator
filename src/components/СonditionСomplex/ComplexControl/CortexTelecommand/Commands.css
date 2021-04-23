@@ -1,0 +1,23 @@
+.commands__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.commands__item:last-child {
+    margin-bottom: 0;
+}
+
+.commands__item textarea {
+    padding: 3px 0 3px 5px;
+    width: 260px;
+}
+
+.commands__item input {
+    width: 260px;
+}
+
+.commands__item button {
+    justify-self: end;
+    width: 100%;
+}

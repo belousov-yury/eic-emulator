@@ -1,0 +1,17 @@
+.port-control {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.port-control__indicator {
+}
+
+.port-control__button-container {
+    width: 100%;
+    display: flex;
+}
+.port-control__button-container button{
+    width: 50%;
+    margin-left: 2px;
+}

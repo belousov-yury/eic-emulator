@@ -1,0 +1,22 @@
+.tel-reception-param {
+
+}
+
+.tel-reception-param__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.tel-reception-param__item input,
+.tel-reception-param__item button,
+.tel-reception-param__item select {
+    width: 50%;
+}
+
+.tel-reception-param__info {
+    display: flex;
+    flex-direction: column;
+}
+.tel-reception-param__info div {
+    margin: 5px 0;
+}

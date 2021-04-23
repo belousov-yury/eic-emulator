@@ -1,0 +1,28 @@
+.tmi-rate {
+
+}
+
+.tmi-rate__item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tmi-rate__item:last-child {
+    margin-bottom: 0;
+}
+
+.tmi-rate__item button {
+    width: 100%;
+}
+
+.tmi-rate__control-container {
+    display: flex;
+    align-items: center;
+}
+
+.tmi-rate__control-container button {
+    width: 50%;
+    margin-left: 3px;
+}
+

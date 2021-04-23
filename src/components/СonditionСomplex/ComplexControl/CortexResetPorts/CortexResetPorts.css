@@ -1,0 +1,15 @@
+.cortex-reset-ports__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cortex-reset-ports__port-change {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.cortex-reset-ports__port-change select,
+.cortex-reset-ports__port-change button {
+    width: 50%;
+}

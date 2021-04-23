@@ -1,0 +1,9 @@
+.command-info-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.command-info-rate button {
+    width: 30%;
+}

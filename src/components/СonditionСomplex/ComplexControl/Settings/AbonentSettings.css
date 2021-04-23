@@ -1,0 +1,44 @@
+.abonent-settings__table {
+    display: grid;
+    grid-template-columns: 30% 30% 20% 20% ;
+}
+.abonent-settings__item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px;
+}
+
+.abonent-settings__item div{
+    margin-right: 5px;
+}
+
+.abonent-settings__table label {
+    display: flex;
+    align-items: center;
+}
+.abonent-settings__table input {
+    width: 95%;
+}
+.abonent-settings__table input[type=checkbox] {
+    width: 8%;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+
+.table-cell {
+    margin-bottom: 5px;
+}
+.table-cell__col-1 {
+    grid-column: 1;
+}
+.table-cell__col-2 {
+    grid-column: 2;
+}
+.table-cell__col-3 {
+    grid-column: 3;
+}
+.table-cell__col-4 {
+    grid-column: 4;
+}

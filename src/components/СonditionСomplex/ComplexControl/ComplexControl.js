@@ -8,6 +8,10 @@ import PlanTRI from "./PlanTRI/PlanTRI";
 import CommandTRI from "./CommandTRI/CommandTRI";
 import CortexRange from "./CortexRange/CortexRange";
 import CortexMonitoring from "./CortexMonitoring/CortexMonitoring";
+import CortexTelecommand from "./CortexTelecommand/CortexTelecommand";
+import CortexTelemetry from "./CortexTelemetry/CortexTelemetry";
+import CortexResetPorts from "./CortexResetPorts/CortexResetPorts";
+import Settings from "./Settings/Settings";
 
 // import {useSelector} from "react-redux";
 
@@ -54,16 +58,16 @@ function ComplexControl() {
           <CortexMonitoring />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 3</h2>
+          <CortexTelecommand />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 4</h2>
+          <CortexTelemetry />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 5</h2>
+          <CortexResetPorts />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 6</h2>
+          <Settings />
         </TabPanel>
       </Tabs>
     </div>

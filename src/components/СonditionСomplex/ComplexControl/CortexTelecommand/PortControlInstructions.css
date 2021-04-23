@@ -1,0 +1,17 @@
+.pc-instructions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc-instructions__title {
+
+}
+
+.pc-instructions__control-container {
+    display: flex;
+    flex-direction: column;
+}
+.pc-instructions__control-container button {
+    width: 260px;
+    margin-top: 2px;
+}
