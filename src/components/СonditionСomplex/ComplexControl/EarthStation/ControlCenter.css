@@ -4,6 +4,8 @@
     justify-content: center;
 }
 .control-center__item {
+    display: flex;
+    align-items: center;
 }
 .control-center__item input {
     margin: 0 5px;

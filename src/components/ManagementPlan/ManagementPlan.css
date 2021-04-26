@@ -1,4 +1,79 @@
 .management-plan {
-    border: 1px solid gray;
+    border: 1px solid var(--select-color);
+    padding: 10px;
     margin: 7px;
+    height: 98.5%;
+    width: 180px;
+    display: flex;
+    overflow-y: auto;
+}
+.management-plan legend {
+    padding: 5px;
+}
+
+.management-plan__container {
+    position: relative;
+    min-height: 8000px;
+    width: 155px;
+}
+
+.management-plan__line {
+    background-color: var(--button-active-color);
+    position: absolute;
+    width: 50%;
+    height: 3px;
+}
+.current-time-line {
+    background-color: var(--warning-color);
+    width: 100%;
+}
+
+.current-time-line div{
+    width: 40px;
+    position: relative;
+    left: 75%;
+    top: 200%
+}
+.hourLine {
+}
+.minLine {
+    width: 25%;
+}
+
+.management-plan__time {
+    position: absolute;
+}
+
+@media screen and (max-width: 920px){
+    .management-plan {
+        max-width: 98.5%;
+        min-width: 98.5%;
+        max-height: 150px;
+        min-height: 150px;
+        overflow-x: scroll;
+        padding: 5px;
+    }
+
+    .management-plan__container {
+        min-width: 8000px;
+        min-height: 100%;
+    }
+
+    .management-plan__line {
+        top: 0;
+        width: 3px;
+        height: 50%;
+    }
+    .minLine {
+        height: 25%;
+    }
+
+    .current-time-line {
+        height: 100%;
+    }
+
+    .current-time-line div{
+        position: relative;
+        top: 85%;
+    }
 }

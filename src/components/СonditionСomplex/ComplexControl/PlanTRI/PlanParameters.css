@@ -10,6 +10,10 @@
     display: flex;
     justify-content: space-between;
 }
+.plan-param__item--input-container label {
+    display: flex;
+    align-items: center;
+}
 .plan-param__item--input-container label input {
     margin-right: 5px;
 }
@@ -21,6 +25,8 @@
 }
 .plan-param__item--period-title {
     margin-right: 5px;
+    align-items: center;
+    display: flex;
 }
 .plan-param__item--period {
     margin-right: 0;
