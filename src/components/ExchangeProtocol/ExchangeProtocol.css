@@ -1,2 +1,14 @@
 .exchange-protocol {
+    border: 1px solid var(--select-color);
+    padding: 10px;
+    height: 100%;
+    flex-grow: 80;
+    overflow-y: auto;
+}
+.exchange-protocol legend {
+    padding: 4px 5px;
+}
+
+.exchange-protocol__field {
+    height: 100%;
 }

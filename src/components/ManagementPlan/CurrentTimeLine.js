@@ -5,7 +5,7 @@ function CurrentTimeLine({direct, currentTime, customRef}) {
   const getStringTime = currentTime => {
     const time = new Date()
     time.setHours(currentTime)
-    return <div>{("0" + time.getHours()).slice(-2) + ':' + ("0" + time.getMinutes()).slice(-2)}</div>
+    return <div>{("0" + time.getHours()).slice(-2) + ':' + ("0" + time.getMinutes()).slice(-2) + ':' + ("0" + time.getSeconds()).slice(-2)}</div>
   }
 
   return(

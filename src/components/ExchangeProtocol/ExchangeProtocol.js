@@ -3,7 +3,14 @@ import './ExchangeProtocol.css'
 
 function ExchangeProtocol() {
   return(
-    <div className='exchange-protocol'>Протокол обмена</div>
+    <fieldset className='exchange-protocol'>
+      <legend>
+        Протокол обмена
+      </legend>
+      <div className="exchange-protocol__field">
+
+      </div>
+    </fieldset>
   )
 }
 

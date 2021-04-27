@@ -35,7 +35,7 @@
 }
 
 .react-tabs__tab-panel {
-    height: 615px;
+    max-height: 615px;
     display: none;
 }
 

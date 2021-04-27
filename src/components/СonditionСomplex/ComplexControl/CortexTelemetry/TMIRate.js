@@ -7,7 +7,7 @@ function TMIRate() {
     <ControlBlock title='Скорость приема ТМИ'>
       <div className="tmi-rate">
         <div className="tmi-rate__item">
-          <div>Сокрость ТМИ (бит/с):</div>
+          <div>Скорость ТМИ (бит/с):</div>
           <div className='tmi-rate__control-container'>
             <input type="number"/>
             <button>Установить</button>

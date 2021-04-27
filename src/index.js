@@ -5,8 +5,8 @@ import {compose, createStore, applyMiddleware} from "redux";
 import {rootReducer} from "./redux/rootReducer";
 import thunk from "redux-thunk";
 import './i18n'
-import './css/index.css';
-import './css/colors.css'
+import './assets/css/index.css';
+import './assets/css/colors.css'
 import App from "./components/App";
 
 
