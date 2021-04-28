@@ -10,8 +10,8 @@
 .pc-instructions__control-container {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 .pc-instructions__control-container button {
-    width: 260px;
     margin-top: 2px;
 }

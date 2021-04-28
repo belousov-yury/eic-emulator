@@ -1,6 +1,8 @@
 .abonent-settings__table {
     display: grid;
-    grid-template-columns: 30% 30% 20% 20% ;
+    grid-template-columns: 30% 30% 20% 20%;
+    justify-items: center;
+    width: 100%;
 }
 .abonent-settings__item {
     display: flex;
@@ -16,6 +18,8 @@
 .abonent-settings__table label {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .abonent-settings__table input {
     width: 95%;

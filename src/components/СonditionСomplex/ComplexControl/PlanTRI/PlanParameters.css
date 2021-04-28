@@ -30,17 +30,17 @@
 }
 .plan-param__item--period {
     margin-right: 0;
+    width: 100%;
 }
 
 .plan-param__item--button-container {
     display: flex;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 
 .plan-param__item--button-container button:first-child {
-    width: 70%;
-    margin-right: 5px;
+    width: 65%;
 }
 .plan-param__item--button-container button:last-child {
-    width: 30%;
+    width: 33%;
 }

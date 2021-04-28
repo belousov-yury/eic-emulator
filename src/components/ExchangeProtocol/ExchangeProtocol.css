@@ -1,14 +1,29 @@
 .exchange-protocol {
     border: 1px solid var(--select-color);
-    padding: 10px;
+    border-radius: 5px;
+    padding: 5px;
     height: 100%;
-    flex-grow: 80;
-    overflow-y: auto;
+    flex-grow: 8;
+    width: 300px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 .exchange-protocol legend {
     padding: 4px 5px;
+    grid-row: 1;
+    grid-column: 1;
 }
 
 .exchange-protocol__field {
-    height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+    height: 95%;
+    background-color: var(--select-color);
+    overflow-x: scroll;
+    width: 100%;
+}
+.exchange-protocol__message {
+    white-space: nowrap;
+    margin: 5px;
 }

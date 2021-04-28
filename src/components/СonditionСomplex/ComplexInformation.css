@@ -2,11 +2,19 @@
     text-align: center;
     line-height: 1.2;
     width: 100%;
+    height: 100%;
     font-size: 1em;
     margin-bottom: 5px;
+    grid-row: 1;
+    grid-column: 1;
 }
 .complex-information tr {
 }
 .complex-information__main-column {
     text-align: start;
+}
+
+@media screen and (max-width: 882px){
+    .complex-information {
+    }
 }

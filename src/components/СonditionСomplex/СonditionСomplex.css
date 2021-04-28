@@ -1,12 +1,25 @@
 .condition-complex {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-grow: 2;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 35% 65%;
     padding: 10px;
     border: 1px solid var(--select-color);
+    border-radius: 5px;
+    width: 650px;
+    height: 100%;
+    margin-bottom: 10px;
+
 }
 
 .condition-complex__legend {
+    grid-row: 1;
+    grid-column: 1;
     padding: 4px 5px;
+}
+
+@media screen and (max-width: 882px){
+    .condition-complex {
+    }
 }

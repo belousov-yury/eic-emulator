@@ -10,7 +10,7 @@
 }
 
 .meas-params__item select {
-    width: 220px;
+    width: 50%;
 }
 
 .meas-params__item input[type=checkbox] {

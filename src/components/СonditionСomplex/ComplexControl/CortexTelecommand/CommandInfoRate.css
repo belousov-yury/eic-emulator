@@ -7,3 +7,7 @@
 .command-info-rate button {
     width: 30%;
 }
+
+.command-info-rate input {
+    width: 50%;
+}

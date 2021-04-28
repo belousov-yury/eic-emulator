@@ -7,14 +7,14 @@
     height: 100px;
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.85em;
+    font-size: 0.9em;
 }
 
 
 .custom-table th {
     position: -webkit-sticky; /* for Safari */
     position: sticky;
-    top: 0;
+    top: -0.5%;
     background-color: var(--select-color);
     box-shadow: 0 1px 0 0 var(--button-color);
     padding: 3px;
@@ -34,4 +34,13 @@
 
 .custom-table td:last-child {
     border-right: none;
+}
+
+@media screen and (max-width: 600px){
+    .custom-table {
+        font-size: 0.6em;
+    }
+    .custom-table th {
+        font-size: 0.8em;
+    }
 }

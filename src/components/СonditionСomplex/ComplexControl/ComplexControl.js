@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs'
 import './ComplexControl.css'
 import {useTranslation} from "react-i18next"
 import EarthStation from "./EarthStation/EarthStation";
@@ -20,7 +20,7 @@ function ComplexControl() {
   const {t} = useTranslation()
 
   // const testVal = useSelector(state => state.complexInformation.SKU.antSystemReady)
-  return(
+  return (
     <div className={'complex-control'}>
       <Tabs className={'react-tabs'}>
         <TabList>
@@ -38,36 +38,58 @@ function ComplexControl() {
         </TabList>
 
         <TabPanel>
-          <EarthStation />
+          <div className="react-tabs__tab-panel--wrapper">
+            <EarthStation/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <TargetDesignation />
+          <div className="react-tabs__tab-panel--wrapper">
+            <TargetDesignation/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <PlanTRI/>
+          <div className="react-tabs__tab-panel--wrapper">
+            <PlanTRI/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <CommandTRI />
+          <div className="react-tabs__tab-panel--wrapper">
+            <CommandTRI/>
+          </div>
         </TabPanel>
         <TabPanel>
+          <div className="react-tabs__tab-panel--wrapper">
+          </div>
         </TabPanel>
         <TabPanel>
-          <CortexRange />
+          <div className="react-tabs__tab-panel--wrapper">
+            <CortexRange/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <CortexMonitoring />
+          <div className="react-tabs__tab-panel--wrapper">
+            <CortexMonitoring/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <CortexTelecommand />
+          <div className="react-tabs__tab-panel--wrapper">
+            <CortexTelecommand/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <CortexTelemetry />
+          <div className="react-tabs__tab-panel--wrapper">
+            <CortexTelemetry/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <CortexResetPorts />
+          <div className="react-tabs__tab-panel--wrapper">
+            <CortexResetPorts/>
+          </div>
         </TabPanel>
         <TabPanel>
-          <Settings />
+          <div className="react-tabs__tab-panel--wrapper">
+            <Settings/>
+          </div>
         </TabPanel>
       </Tabs>
     </div>

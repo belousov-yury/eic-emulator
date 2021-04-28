@@ -15,6 +15,9 @@
 .tmi-rate__item button {
     width: 100%;
 }
+.tmi-rate__item input {
+    width: 50%;
+}
 
 .tmi-rate__control-container {
     display: flex;

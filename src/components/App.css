@@ -1,5 +1,8 @@
 html {
     background-color: var(--main-color);
+    min-height: 550px;
+    min-width: 500px;
+
 }
 
 body::-webkit-scrollbar {
@@ -10,7 +13,6 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     font-size: 16px;
     color: var(--text-color);
@@ -103,9 +105,9 @@ label {
     border-radius: 3px;
 }
 
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: 1200px) {
     .app {
-        /*flex-wrap: wrap;*/
+        flex-wrap: wrap;
     }
 }
 
@@ -113,9 +115,31 @@ label {
 
 @media screen and (max-width: 650px){
     .app {
-        font-size: 14px;
+        font-size: 12px;
     }
     button {
-        font-size: 0.7em;
+        font-size: 0.65em;
     }
+
+}
+
+
+@media screen and (max-height: 850px){
+    .app {
+        font-size: 12px;
+    }
+    button {
+        font-size: 0.65em;
+    }
+
+}
+
+@media screen and (max-height: 640px){
+    .app {
+        font-size: 10px;
+    }
+    button {
+        font-size: 0.65em;
+    }
+
 }

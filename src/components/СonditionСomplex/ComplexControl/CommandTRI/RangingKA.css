@@ -20,7 +20,7 @@
     margin-right: 5px;
 }
 .automatic-container input[type=number] {
-    width: 220px;
+    width: 60%;
 }
 
 .time-command-container {
