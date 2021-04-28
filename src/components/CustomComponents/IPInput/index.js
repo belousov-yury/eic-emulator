@@ -59,16 +59,22 @@ export default class IPInput extends React.Component {
       this[`_input-${i + 1}`].focus();
     }
   }
+  /**
+   * Focus Event
+   */
+  handleFocus(e) {
+    e.target.select();
+  }
 
   /**
    * Keydown Event
    */
   handleKeyDown(e, i) {
-    /* 37 = ←, 39 = →, 8 = backspace, 190 = . */
+    /* 37 = ←, 39 = →, 8 = backspace, 190 = . , 110 = . (num)*/
     let domId = i;
     if ((e.keyCode === 37 || e.keyCode === 8) && getRange(e.target).end === 0 && i > 0) { domId = i - 1; }
     if (e.keyCode === 39 && getRange(e.target).end === e.target.value.length && i < 3) { domId = i + 1; }
-    if (e.keyCode === 190) {
+    if (e.keyCode === 190 || e.keyCode === 110) {
       e.preventDefault();
       if(i < 3) {
         domId = i + 1;
@@ -138,6 +144,7 @@ export default class IPInput extends React.Component {
               onChange={e => this.handleChange(e, i)}
               onKeyDown={e => this.handleKeyDown(e, i)}
               onPaste={e => this.handlePaste(e, i)}
+              onFocus={e => this.handleFocus(e)}
             />
             {i !== 3 ? <i>.</i> : false}
           </div>

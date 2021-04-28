@@ -38,6 +38,7 @@
     height: 3px;
 }
 .current-time-line {
+    z-index: 4;
     background-color: var(--warning-color);
     width: 100%;
 }
